@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E9FFF442095476000922A0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFF432095476000922A0D /* AppDelegate.swift */; };
+		2E9FFF462095476000922A0D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFF452095476000922A0D /* HomeVC.swift */; };
+		2E9FFF482095476000922A0D /* BrowseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFF472095476000922A0D /* BrowseVC.swift */; };
+		2E9FFF4B2095476000922A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF492095476000922A0D /* Main.storyboard */; };
+		2E9FFF4D2095476100922A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF4C2095476100922A0D /* Assets.xcassets */; };
+		2E9FFF502095476100922A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF4E2095476100922A0D /* LaunchScreen.storyboard */; };
+		2E9FFF58209573F900922A0D /* WorkoutPlaylistsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFF57209573F900922A0D /* WorkoutPlaylistsVC.swift */; };
+		2E9FFF5A209574AC00922A0D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFF59209574AC00922A0D /* ProfileVC.swift */; };
+		2E9FFF5C20958FFF00922A0D /* CatorgorizedDrillsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFF5B20958FFF00922A0D /* CatorgorizedDrillsVC.swift */; };
+		2E9FFF622095A8F400922A0D /* DrillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFF612095A8F400922A0D /* DrillVC.swift */; };
+		2E9FFF642096875300922A0D /* Swift-Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFF632096875300922A0D /* Swift-Gif.swift */; };
+		2E9FFF68209688F600922A0D /* Crossover.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF67209688F600922A0D /* Crossover.gif */; };
+		2E9FFF8C2096893900922A0D /* UpandBackRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF692096893600922A0D /* UpandBackRight.gif */; };
+		2E9FFF8D2096893900922A0D /* Micken.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF6A2096893600922A0D /* Micken.gif */; };
+		2E9FFF8E2096893900922A0D /* AroundTheWorld.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF6B2096893600922A0D /* AroundTheWorld.gif */; };
+		2E9FFF8F2096893900922A0D /* InandOutRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF6C2096893600922A0D /* InandOutRight.gif */; };
+		2E9FFF902096893900922A0D /* ComboBetweenTheLegsBehindTheBack.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF6D2096893600922A0D /* ComboBetweenTheLegsBehindTheBack.gif */; };
+		2E9FFF912096893900922A0D /* BehindTheBack.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF6E2096893600922A0D /* BehindTheBack.gif */; };
+		2E9FFF922096893900922A0D /* 2BallDribblePoundHigh.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF6F2096893600922A0D /* 2BallDribblePoundHigh.gif */; };
+		2E9FFF932096893900922A0D /* ComboCrossBetweenLegs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF702096893600922A0D /* ComboCrossBetweenLegs.gif */; };
+		2E9FFF942096893900922A0D /* AroundLegRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF712096893600922A0D /* AroundLegRight.gif */; };
+		2E9FFF952096893900922A0D /* UpandBackLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF722096893600922A0D /* UpandBackLeft.gif */; };
+		2E9FFF962096893900922A0D /* 2BallAroundOneLegLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF732096893600922A0D /* 2BallAroundOneLegLeft.gif */; };
+		2E9FFF972096893900922A0D /* BetweenTheLegsRightFootFoward.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF742096893600922A0D /* BetweenTheLegsRightFootFoward.gif */; };
+		2E9FFF982096893900922A0D /* ComboCrossBehindTheBack.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF752096893600922A0D /* ComboCrossBehindTheBack.gif */; };
+		2E9FFF992096893900922A0D /* ElbowToElbowShooting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF762096893600922A0D /* ElbowToElbowShooting.gif */; };
+		2E9FFF9A2096893900922A0D /* AroundOneLegLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF772096893700922A0D /* AroundOneLegLeft.gif */; };
+		2E9FFF9B2096893900922A0D /* FiveSpotTogether.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF782096893700922A0D /* FiveSpotTogether.gif */; };
+		2E9FFF9C2096893900922A0D /* ReverseMicken.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF792096893700922A0D /* ReverseMicken.gif */; };
+		2E9FFF9D2096893900922A0D /* ComboDoubleCross.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF7A2096893700922A0D /* ComboDoubleCross.gif */; };
+		2E9FFF9E2096893900922A0D /* 2BallDribbleCross.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF7B2096893700922A0D /* 2BallDribbleCross.gif */; };
+		2E9FFF9F2096893900922A0D /* PoundLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF7C2096893700922A0D /* PoundLeft.gif */; };
+		2E9FFFA02096893900922A0D /* 2BallDribbleFigure8.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF7D2096893700922A0D /* 2BallDribbleFigure8.gif */; };
+		2E9FFFA12096893900922A0D /* SidetoSideRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF7E2096893700922A0D /* SidetoSideRight.gif */; };
+		2E9FFFA22096893900922A0D /* SideToSideLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF7F2096893700922A0D /* SideToSideLeft.gif */; };
+		2E9FFFA32096893900922A0D /* HotSpot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF802096893700922A0D /* HotSpot.gif */; };
+		2E9FFFA42096893900922A0D /* OneDribblePullUpLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF812096893700922A0D /* OneDribblePullUpLeft.gif */; };
+		2E9FFFA52096893900922A0D /* BetweenTheLegsLeftFootFoward.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF822096893800922A0D /* BetweenTheLegsLeftFootFoward.gif */; };
+		2E9FFFA62096893900922A0D /* ComboInandoutCross.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF832096893800922A0D /* ComboInandoutCross.gif */; };
+		2E9FFFA72096893900922A0D /* ComboBehindTheBackCross.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF842096893800922A0D /* ComboBehindTheBackCross.gif */; };
+		2E9FFFA82096893900922A0D /* 2BallAroundRightLeg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF852096893800922A0D /* 2BallAroundRightLeg.gif */; };
+		2E9FFFA92096893900922A0D /* ComboHesitationBehindTheBack.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF862096893800922A0D /* ComboHesitationBehindTheBack.gif */; };
+		2E9FFFAA2096893900922A0D /* Figure8.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF872096893800922A0D /* Figure8.gif */; };
+		2E9FFFAB2096893900922A0D /* 2BallDribbleInandOut.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF882096893800922A0D /* 2BallDribbleInandOut.gif */; };
+		2E9FFFAC2096893900922A0D /* 2BallDribblePoundLow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF892096893800922A0D /* 2BallDribblePoundLow.gif */; };
+		2E9FFFAD2096893900922A0D /* Make3StepBack.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF8A2096893800922A0D /* Make3StepBack.gif */; };
+		2E9FFFAE2096893900922A0D /* 2BallUpandBack.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFF8B2096893800922A0D /* 2BallUpandBack.gif */; };
+		2E9FFFB020968D2000922A0D /* RightPound.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FFFAF20968D2000922A0D /* RightPound.gif */; };
+		2E9FFFB32096B54A00922A0D /* Drills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFFB22096B54A00922A0D /* Drills.swift */; };
+		2E9FFFB52096E42A00922A0D /* SpecificWorkoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFFB42096E42A00922A0D /* SpecificWorkoutVC.swift */; };
+		2E9FFFB72096F24000922A0D /* RandomWorkoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFFB62096F24000922A0D /* RandomWorkoutVC.swift */; };
+		2E9FFFB9209790F000922A0D /* NameOfPlaylistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FFFB8209790F000922A0D /* NameOfPlaylistVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E9FFF402095476000922A0D /* BB2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BB2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9FFF432095476000922A0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E9FFF452095476000922A0D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2E9FFF472095476000922A0D /* BrowseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseVC.swift; sourceTree = "<group>"; };
+		2E9FFF4A2095476000922A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E9FFF4C2095476100922A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E9FFF4F2095476100922A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E9FFF512095476100922A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9FFF57209573F900922A0D /* WorkoutPlaylistsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlaylistsVC.swift; sourceTree = "<group>"; };
+		2E9FFF59209574AC00922A0D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		2E9FFF5B20958FFF00922A0D /* CatorgorizedDrillsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatorgorizedDrillsVC.swift; sourceTree = "<group>"; };
+		2E9FFF612095A8F400922A0D /* DrillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillVC.swift; sourceTree = "<group>"; };
+		2E9FFF632096875300922A0D /* Swift-Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift-Gif.swift"; sourceTree = "<group>"; };
+		2E9FFF67209688F600922A0D /* Crossover.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Crossover.gif; sourceTree = "<group>"; };
+		2E9FFF692096893600922A0D /* UpandBackRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UpandBackRight.gif; sourceTree = "<group>"; };
+		2E9FFF6A2096893600922A0D /* Micken.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Micken.gif; sourceTree = "<group>"; };
+		2E9FFF6B2096893600922A0D /* AroundTheWorld.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AroundTheWorld.gif; sourceTree = "<group>"; };
+		2E9FFF6C2096893600922A0D /* InandOutRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = InandOutRight.gif; sourceTree = "<group>"; };
+		2E9FFF6D2096893600922A0D /* ComboBetweenTheLegsBehindTheBack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ComboBetweenTheLegsBehindTheBack.gif; sourceTree = "<group>"; };
+		2E9FFF6E2096893600922A0D /* BehindTheBack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BehindTheBack.gif; sourceTree = "<group>"; };
+		2E9FFF6F2096893600922A0D /* 2BallDribblePoundHigh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2BallDribblePoundHigh.gif; sourceTree = "<group>"; };
+		2E9FFF702096893600922A0D /* ComboCrossBetweenLegs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ComboCrossBetweenLegs.gif; sourceTree = "<group>"; };
+		2E9FFF712096893600922A0D /* AroundLegRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AroundLegRight.gif; sourceTree = "<group>"; };
+		2E9FFF722096893600922A0D /* UpandBackLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UpandBackLeft.gif; sourceTree = "<group>"; };
+		2E9FFF732096893600922A0D /* 2BallAroundOneLegLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2BallAroundOneLegLeft.gif; sourceTree = "<group>"; };
+		2E9FFF742096893600922A0D /* BetweenTheLegsRightFootFoward.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BetweenTheLegsRightFootFoward.gif; sourceTree = "<group>"; };
+		2E9FFF752096893600922A0D /* ComboCrossBehindTheBack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ComboCrossBehindTheBack.gif; sourceTree = "<group>"; };
+		2E9FFF762096893600922A0D /* ElbowToElbowShooting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ElbowToElbowShooting.gif; sourceTree = "<group>"; };
+		2E9FFF772096893700922A0D /* AroundOneLegLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AroundOneLegLeft.gif; sourceTree = "<group>"; };
+		2E9FFF782096893700922A0D /* FiveSpotTogether.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FiveSpotTogether.gif; sourceTree = "<group>"; };
+		2E9FFF792096893700922A0D /* ReverseMicken.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ReverseMicken.gif; sourceTree = "<group>"; };
+		2E9FFF7A2096893700922A0D /* ComboDoubleCross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ComboDoubleCross.gif; sourceTree = "<group>"; };
+		2E9FFF7B2096893700922A0D /* 2BallDribbleCross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2BallDribbleCross.gif; sourceTree = "<group>"; };
+		2E9FFF7C2096893700922A0D /* PoundLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PoundLeft.gif; sourceTree = "<group>"; };
+		2E9FFF7D2096893700922A0D /* 2BallDribbleFigure8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2BallDribbleFigure8.gif; sourceTree = "<group>"; };
+		2E9FFF7E2096893700922A0D /* SidetoSideRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SidetoSideRight.gif; sourceTree = "<group>"; };
+		2E9FFF7F2096893700922A0D /* SideToSideLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SideToSideLeft.gif; sourceTree = "<group>"; };
+		2E9FFF802096893700922A0D /* HotSpot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HotSpot.gif; sourceTree = "<group>"; };
+		2E9FFF812096893700922A0D /* OneDribblePullUpLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OneDribblePullUpLeft.gif; sourceTree = "<group>"; };
+		2E9FFF822096893800922A0D /* BetweenTheLegsLeftFootFoward.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BetweenTheLegsLeftFootFoward.gif; sourceTree = "<group>"; };
+		2E9FFF832096893800922A0D /* ComboInandoutCross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ComboInandoutCross.gif; sourceTree = "<group>"; };
+		2E9FFF842096893800922A0D /* ComboBehindTheBackCross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ComboBehindTheBackCross.gif; sourceTree = "<group>"; };
+		2E9FFF852096893800922A0D /* 2BallAroundRightLeg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2BallAroundRightLeg.gif; sourceTree = "<group>"; };
+		2E9FFF862096893800922A0D /* ComboHesitationBehindTheBack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ComboHesitationBehindTheBack.gif; sourceTree = "<group>"; };
+		2E9FFF872096893800922A0D /* Figure8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Figure8.gif; sourceTree = "<group>"; };
+		2E9FFF882096893800922A0D /* 2BallDribbleInandOut.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2BallDribbleInandOut.gif; sourceTree = "<group>"; };
+		2E9FFF892096893800922A0D /* 2BallDribblePoundLow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2BallDribblePoundLow.gif; sourceTree = "<group>"; };
+		2E9FFF8A2096893800922A0D /* Make3StepBack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Make3StepBack.gif; sourceTree = "<group>"; };
+		2E9FFF8B2096893800922A0D /* 2BallUpandBack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2BallUpandBack.gif; sourceTree = "<group>"; };
+		2E9FFFAF20968D2000922A0D /* RightPound.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RightPound.gif; sourceTree = "<group>"; };
+		2E9FFFB22096B54A00922A0D /* Drills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drills.swift; sourceTree = "<group>"; };
+		2E9FFFB42096E42A00922A0D /* SpecificWorkoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificWorkoutVC.swift; sourceTree = "<group>"; };
+		2E9FFFB62096F24000922A0D /* RandomWorkoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWorkoutVC.swift; sourceTree = "<group>"; };
+		2E9FFFB8209790F000922A0D /* NameOfPlaylistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameOfPlaylistVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E9FFF3D2095476000922A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E9FFF372095476000922A0D = {
+			isa = PBXGroup;
+			children = (
+				2E9FFF422095476000922A0D /* BB2 */,
+				2E9FFF412095476000922A0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E9FFF412095476000922A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FFF402095476000922A0D /* BB2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E9FFF422095476000922A0D /* BB2 */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FFF432095476000922A0D /* AppDelegate.swift */,
+				2E9FFF5D2095900F00922A0D /* Home */,
+				2E9FFF5E2095901E00922A0D /* Browse */,
+				2E9FFF5F2095903300922A0D /* Playlists */,
+				2E9FFF492095476000922A0D /* Main.storyboard */,
+				2E9FFF4C2095476100922A0D /* Assets.xcassets */,
+				2E9FFF4E2095476100922A0D /* LaunchScreen.storyboard */,
+				2E9FFF512095476100922A0D /* Info.plist */,
+			);
+			path = BB2;
+			sourceTree = "<group>";
+		};
+		2E9FFF5D2095900F00922A0D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FFF452095476000922A0D /* HomeVC.swift */,
+				2E9FFFB42096E42A00922A0D /* SpecificWorkoutVC.swift */,
+				2E9FFFB62096F24000922A0D /* RandomWorkoutVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2E9FFF5E2095901E00922A0D /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FFF472095476000922A0D /* BrowseVC.swift */,
+				2E9FFF5B20958FFF00922A0D /* CatorgorizedDrillsVC.swift */,
+				2E9FFF612095A8F400922A0D /* DrillVC.swift */,
+				2E9FFFB22096B54A00922A0D /* Drills.swift */,
+				2E9FFF632096875300922A0D /* Swift-Gif.swift */,
+				2E9FFFB12096905E00922A0D /* Gifs */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		2E9FFF5F2095903300922A0D /* Playlists */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FFF57209573F900922A0D /* WorkoutPlaylistsVC.swift */,
+				2E9FFFB8209790F000922A0D /* NameOfPlaylistVC.swift */,
+				2E9FFF602095907600922A0D /* Profile */,
+			);
+			path = Playlists;
+			sourceTree = "<group>";
+		};
+		2E9FFF602095907600922A0D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FFF59209574AC00922A0D /* ProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2E9FFFB12096905E00922A0D /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FFF67209688F600922A0D /* Crossover.gif */,
+				2E9FFF732096893600922A0D /* 2BallAroundOneLegLeft.gif */,
+				2E9FFF852096893800922A0D /* 2BallAroundRightLeg.gif */,
+				2E9FFF7B2096893700922A0D /* 2BallDribbleCross.gif */,
+				2E9FFF7D2096893700922A0D /* 2BallDribbleFigure8.gif */,
+				2E9FFF882096893800922A0D /* 2BallDribbleInandOut.gif */,
+				2E9FFF6F2096893600922A0D /* 2BallDribblePoundHigh.gif */,
+				2E9FFF892096893800922A0D /* 2BallDribblePoundLow.gif */,
+				2E9FFF8B2096893800922A0D /* 2BallUpandBack.gif */,
+				2E9FFF712096893600922A0D /* AroundLegRight.gif */,
+				2E9FFF772096893700922A0D /* AroundOneLegLeft.gif */,
+				2E9FFF6B2096893600922A0D /* AroundTheWorld.gif */,
+				2E9FFF6E2096893600922A0D /* BehindTheBack.gif */,
+				2E9FFF822096893800922A0D /* BetweenTheLegsLeftFootFoward.gif */,
+				2E9FFF742096893600922A0D /* BetweenTheLegsRightFootFoward.gif */,
+				2E9FFF842096893800922A0D /* ComboBehindTheBackCross.gif */,
+				2E9FFF6D2096893600922A0D /* ComboBetweenTheLegsBehindTheBack.gif */,
+				2E9FFF752096893600922A0D /* ComboCrossBehindTheBack.gif */,
+				2E9FFF702096893600922A0D /* ComboCrossBetweenLegs.gif */,
+				2E9FFF7A2096893700922A0D /* ComboDoubleCross.gif */,
+				2E9FFF862096893800922A0D /* ComboHesitationBehindTheBack.gif */,
+				2E9FFF832096893800922A0D /* ComboInandoutCross.gif */,
+				2E9FFF762096893600922A0D /* ElbowToElbowShooting.gif */,
+				2E9FFF872096893800922A0D /* Figure8.gif */,
+				2E9FFF782096893700922A0D /* FiveSpotTogether.gif */,
+				2E9FFF802096893700922A0D /* HotSpot.gif */,
+				2E9FFF6C2096893600922A0D /* InandOutRight.gif */,
+				2E9FFF8A2096893800922A0D /* Make3StepBack.gif */,
+				2E9FFF6A2096893600922A0D /* Micken.gif */,
+				2E9FFF812096893700922A0D /* OneDribblePullUpLeft.gif */,
+				2E9FFF7C2096893700922A0D /* PoundLeft.gif */,
+				2E9FFF792096893700922A0D /* ReverseMicken.gif */,
+				2E9FFFAF20968D2000922A0D /* RightPound.gif */,
+				2E9FFF7E2096893700922A0D /* SidetoSideRight.gif */,
+				2E9FFF7F2096893700922A0D /* SideToSideLeft.gif */,
+				2E9FFF722096893600922A0D /* UpandBackLeft.gif */,
+				2E9FFF692096893600922A0D /* UpandBackRight.gif */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E9FFF3F2095476000922A0D /* BB2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E9FFF542095476100922A0D /* Build configuration list for PBXNativeTarget "BB2" */;
+			buildPhases = (
+				2E9FFF3C2095476000922A0D /* Sources */,
+				2E9FFF3D2095476000922A0D /* Frameworks */,
+				2E9FFF3E2095476000922A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BB2;
+			productName = BB2;
+			productReference = 2E9FFF402095476000922A0D /* BB2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E9FFF382095476000922A0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Perry;
+				TargetAttributes = {
+					2E9FFF3F2095476000922A0D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 2E9FFF3B2095476000922A0D /* Build configuration list for PBXProject "BB2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E9FFF372095476000922A0D;
+			productRefGroup = 2E9FFF412095476000922A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E9FFF3F2095476000922A0D /* BB2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E9FFF3E2095476000922A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9FFF942096893900922A0D /* AroundLegRight.gif in Resources */,
+				2E9FFF502095476100922A0D /* LaunchScreen.storyboard in Resources */,
+				2E9FFF9F2096893900922A0D /* PoundLeft.gif in Resources */,
+				2E9FFF8D2096893900922A0D /* Micken.gif in Resources */,
+				2E9FFFA52096893900922A0D /* BetweenTheLegsLeftFootFoward.gif in Resources */,
+				2E9FFF9A2096893900922A0D /* AroundOneLegLeft.gif in Resources */,
+				2E9FFF8E2096893900922A0D /* AroundTheWorld.gif in Resources */,
+				2E9FFFA12096893900922A0D /* SidetoSideRight.gif in Resources */,
+				2E9FFF9C2096893900922A0D /* ReverseMicken.gif in Resources */,
+				2E9FFF912096893900922A0D /* BehindTheBack.gif in Resources */,
+				2E9FFF932096893900922A0D /* ComboCrossBetweenLegs.gif in Resources */,
+				2E9FFF992096893900922A0D /* ElbowToElbowShooting.gif in Resources */,
+				2E9FFF8C2096893900922A0D /* UpandBackRight.gif in Resources */,
+				2E9FFF9E2096893900922A0D /* 2BallDribbleCross.gif in Resources */,
+				2E9FFF4D2095476100922A0D /* Assets.xcassets in Resources */,
+				2E9FFFA62096893900922A0D /* ComboInandoutCross.gif in Resources */,
+				2E9FFF9D2096893900922A0D /* ComboDoubleCross.gif in Resources */,
+				2E9FFF922096893900922A0D /* 2BallDribblePoundHigh.gif in Resources */,
+				2E9FFFA82096893900922A0D /* 2BallAroundRightLeg.gif in Resources */,
+				2E9FFFAD2096893900922A0D /* Make3StepBack.gif in Resources */,
+				2E9FFF962096893900922A0D /* 2BallAroundOneLegLeft.gif in Resources */,
+				2E9FFFA42096893900922A0D /* OneDribblePullUpLeft.gif in Resources */,
+				2E9FFFB020968D2000922A0D /* RightPound.gif in Resources */,
+				2E9FFF902096893900922A0D /* ComboBetweenTheLegsBehindTheBack.gif in Resources */,
+				2E9FFFAE2096893900922A0D /* 2BallUpandBack.gif in Resources */,
+				2E9FFFA72096893900922A0D /* ComboBehindTheBackCross.gif in Resources */,
+				2E9FFFAC2096893900922A0D /* 2BallDribblePoundLow.gif in Resources */,
+				2E9FFFA02096893900922A0D /* 2BallDribbleFigure8.gif in Resources */,
+				2E9FFFA92096893900922A0D /* ComboHesitationBehindTheBack.gif in Resources */,
+				2E9FFF8F2096893900922A0D /* InandOutRight.gif in Resources */,
+				2E9FFF9B2096893900922A0D /* FiveSpotTogether.gif in Resources */,
+				2E9FFFAB2096893900922A0D /* 2BallDribbleInandOut.gif in Resources */,
+				2E9FFFA22096893900922A0D /* SideToSideLeft.gif in Resources */,
+				2E9FFF972096893900922A0D /* BetweenTheLegsRightFootFoward.gif in Resources */,
+				2E9FFF4B2095476000922A0D /* Main.storyboard in Resources */,
+				2E9FFFA32096893900922A0D /* HotSpot.gif in Resources */,
+				2E9FFFAA2096893900922A0D /* Figure8.gif in Resources */,
+				2E9FFF982096893900922A0D /* ComboCrossBehindTheBack.gif in Resources */,
+				2E9FFF68209688F600922A0D /* Crossover.gif in Resources */,
+				2E9FFF952096893900922A0D /* UpandBackLeft.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E9FFF3C2095476000922A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9FFF622095A8F400922A0D /* DrillVC.swift in Sources */,
+				2E9FFF5A209574AC00922A0D /* ProfileVC.swift in Sources */,
+				2E9FFFB9209790F000922A0D /* NameOfPlaylistVC.swift in Sources */,
+				2E9FFF642096875300922A0D /* Swift-Gif.swift in Sources */,
+				2E9FFF482095476000922A0D /* BrowseVC.swift in Sources */,
+				2E9FFFB52096E42A00922A0D /* SpecificWorkoutVC.swift in Sources */,
+				2E9FFFB72096F24000922A0D /* RandomWorkoutVC.swift in Sources */,
+				2E9FFF58209573F900922A0D /* WorkoutPlaylistsVC.swift in Sources */,
+				2E9FFF442095476000922A0D /* AppDelegate.swift in Sources */,
+				2E9FFF462095476000922A0D /* HomeVC.swift in Sources */,
+				2E9FFF5C20958FFF00922A0D /* CatorgorizedDrillsVC.swift in Sources */,
+				2E9FFFB32096B54A00922A0D /* Drills.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E9FFF492095476000922A0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9FFF4A2095476000922A0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9FFF4E2095476100922A0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9FFF4F2095476100922A0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E9FFF522095476100922A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E9FFF532095476100922A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E9FFF552095476100922A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYDEK948Y3;
+				INFOPLIST_FILE = BB2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BB2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E9FFF562095476100922A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYDEK948Y3;
+				INFOPLIST_FILE = BB2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BB2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E9FFF3B2095476000922A0D /* Build configuration list for PBXProject "BB2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9FFF522095476100922A0D /* Debug */,
+				2E9FFF532095476100922A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E9FFF542095476100922A0D /* Build configuration list for PBXNativeTarget "BB2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9FFF552095476100922A0D /* Debug */,
+				2E9FFF562095476100922A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E9FFF382095476000922A0D /* Project object */;
+}
